@@ -64,3 +64,7 @@ install_torch()
 install_version("keras", version = "2.6.0.0", ask=FALSE)
 
 install.packages(c('collections', 'languageserver'), dependencies=FALSE)
+
+# Factor Analysis
+install.packages("FactoMineR")
+install.packages("factoextra")
